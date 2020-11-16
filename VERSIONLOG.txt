@@ -1,0 +1,9 @@
+#Version BETA 1.0.0
+- this is the first public appearance of this software package
+  i just hope it helps people and they don't abuse it.
+  This software support to build a simple menu with
+  choices and different layout types. (Header, Body, 
+  Bottomlayout). You have the possibility to shift 
+  your text to the left center and right. It's build
+  with java 8 u261. Newer features are comming may
+  also as a request.
