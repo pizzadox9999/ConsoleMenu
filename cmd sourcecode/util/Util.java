@@ -34,9 +34,10 @@ public class Util {
         } catch(Exception e) {
           e.printStackTrace();
         }
-        break; 
-    } // end of switch
-    throw new ConsoleMenuOsNotSupportedException("Your OS is not supported");
+        break;
+      default :
+        throw new ConsoleMenuOsNotSupportedException("Your OS is not supported");       
+    } 
   }
   /** stops the console for endless time until user pushed a button
   @except throws ConsoleMenuOsNotSupportedException os not supported*/
@@ -49,8 +50,9 @@ public class Util {
           System.out.println(e);
         } 
         break;
+      default :
+        throw new ConsoleMenuOsNotSupportedException("Your OS is not supported");       
     }
-    throw new ConsoleMenuOsNotSupportedException("Your OS is not supported");
   }
   /**@param timeouttime set's the time for the Tiemout
   @except throws ConsoleMenuOsNotSupportedException os not supported*/
@@ -63,8 +65,9 @@ public class Util {
           System.out.println(e);
         } 
         break;
+      default :
+        throw new ConsoleMenuOsNotSupportedException("Your OS is not supported");       
     } 
-    throw new ConsoleMenuOsNotSupportedException("Your OS is not supported");
   }
   /**
   @param x set's the collums
@@ -80,8 +83,9 @@ public class Util {
           System.out.println(e);
         } 
         break;
+      default :
+        throw new ConsoleMenuOsNotSupportedException("Your OS is not supported");       
     } 
-    throw new ConsoleMenuOsNotSupportedException("Your OS is not supported");
   }
   /**   also resizes the console but with ConsoleSize object
   @param size resize with ConsoleSizeobject
@@ -96,8 +100,9 @@ public class Util {
           System.out.println(e);
         } 
         break;
+      default :
+        throw new ConsoleMenuOsNotSupportedException("Your OS is not supported");       
     } 
-    throw new ConsoleMenuOsNotSupportedException("Your OS is not supported");
   }
   /** setColor for cmd
   @param c1 First color String
@@ -113,8 +118,9 @@ public class Util {
           System.out.println(e);
         } 
         break;
+      default :
+        throw new ConsoleMenuOsNotSupportedException("Your OS is not supported");       
     } 
-    throw new ConsoleMenuOsNotSupportedException("Your OS is not supported");
   }
   /** setColor for cmd
   @param consoleColor uses ConsoleColor object
@@ -129,8 +135,9 @@ public class Util {
           System.out.println(e);
         } 
         break;
+      default :
+        throw new ConsoleMenuOsNotSupportedException("Your OS is not supported");       
     } 
-    throw new ConsoleMenuOsNotSupportedException("Your OS is not supported");
   }  
     /** set's title of cmd window
   @param title change the title 
@@ -145,8 +152,9 @@ public class Util {
           System.out.println(e);
         } 
         break;
+      default :
+        throw new ConsoleMenuOsNotSupportedException("Your OS is not supported");       
     } 
-    throw new ConsoleMenuOsNotSupportedException("Your OS is not supported");
   }
     /** executes testwise a cmd command and trys to return something
   @param syntax takes the cmd command
@@ -168,7 +176,8 @@ public class Util {
           ex.printStackTrace();
         }
         return out;
-    } 
-    throw new ConsoleMenuOsNotSupportedException("Your OS is not supported");
+      default :
+        throw new ConsoleMenuOsNotSupportedException("Your OS is not supported");       
+    }
   }
 }
