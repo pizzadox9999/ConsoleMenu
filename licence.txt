@@ -1,0 +1,37 @@
+Copyright (C) 2020 William Bauer <wbauer2212@gmail.com>
+
+Everyone is allowed to use this project for a non-commercial use.
+This includes also modyfing, distribution and copying the project.
+
+You have to credit me in every project which is based upon
+this project or uses any part of this.
+
+
+TERMS AND CONDITIONS FOR NON-COMERCIAL COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. You have to put this licence file in your project.
+  1. You are not allowed to sell your project with out
+     my permission.
+  2. You have to grant me acces every time to your
+     project with source code.
+  3. If you violated against any conditions you 
+     have to take your product/project down.
+  4. Everybody who wants to have a closer look
+     to your project have to get it.
+  5. This terms can change at any time.
+  
+For commercial use please contact me and we will find a solution.
+
+TERMS AND CONDITIONS FOR COMERCIAL COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. As long as you use this project commercial we 
+     have to stay in contact.
+  1. You have to grant me acces every time to your
+     project with source code.
+  2. If you violated against any conditions you 
+     have to take your product/project down.
+  3. Everybody who wants to have a closer look
+     to your project have to get it.
+  4. As long as you sell your project I also get
+     a peace of the cake. (:-))
+  5. This terms can change at any time.
